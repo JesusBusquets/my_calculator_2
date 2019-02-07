@@ -2,9 +2,9 @@
 <title>Calculator</title><meta charset="utf-8">
 <script type="text/javascript">
 
-function potencia(numero) {
+function potencia(a) {
 var num = document.getElementById("n1");
-num.value = Math.pow(num.value, numero);
+num.value = Math.pow(num.value, a);
 }
 
 function seno() {
@@ -21,5 +21,6 @@ Number:
 <button onclick="potencia(3)"> x^3 </button>
 <button onclick="potencia(4)"> x^4 </button>
 <button onclick="seno()"> sin(x) </button>
+<button onclick="potencia(2)"> x^2 </button>
 </body>
 </html>
